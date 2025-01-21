@@ -413,6 +413,7 @@ h2{
     padding-left: 39px;
     top: 215.33px;  
 }
+
 .story-bg{
     background: #ffffff;
     border-radius: 18px;
@@ -420,6 +421,10 @@ h2{
     width: 100%;
     
 }
+
+
+
+
 .card-container img{
     border-radius: 16px 16px 0px 0px;
     
@@ -608,8 +613,62 @@ height: 80px;
         
     }
 
+    .story-card{
+        width: auto;
+    }
+
     .third-btn{
         align-items: center;
     }
+
+    .story-bg{
+       
+        width: 173.09px;
+       
+
+}
+.card-btn{
+    border-radius: 48px;
+    width: 100px;
+    height: 33px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: #95b226;
+    border: none;
+    margin-left: 39px;
+    position: relative;
+    bottom: 20px;
+}
+.card-btn-description{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Quicksand;
+    padding-left: 12px;
+   width: 146px; 
+   margin-top: 0;
+
+}
+
+.card-container {
+   
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    
+    
+}
+.story-card{
+    height: 430px;
+}
+.third-btn{
+    margin-top: 0;
+}
+
 
 }
