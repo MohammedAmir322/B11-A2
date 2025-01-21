@@ -556,7 +556,7 @@ height: 80px;
     
     .navbar{
         border: 1px solid #fea301;
-        width: 567px;
+        width: 390px;
 
     }
     .banner-text{
@@ -574,6 +574,7 @@ height: 80px;
     .Kinder-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+        margin-left: 22px;
     }
     .fav{
         display: none;
@@ -665,6 +666,7 @@ height: 80px;
 }
 .story-card{
     height: 430px;
+    margin-left: 10px;
 }
 .third-btn{
     margin-top: 0;
